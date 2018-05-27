@@ -1,0 +1,455 @@
+/*// Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    
+     /*header css*/
+    .js #menu {
+		display:none;
+	}
+	
+	.js .slicknav_menu {
+		display:block;
+	}
+    .slicknav_menu {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 999;
+    }
+    /*responsive menu css*/
+    .slicknav_btn.slicknav_collapsed,
+    .slicknav_btn.slicknav_open{
+        background: #CE1B28;
+        padding: 15px;
+        font-size: 20px;
+        text-align: center;
+        border-radius: 0px;
+    }
+    .slicknav_menu .slicknav_menutxt {
+        display: none!important;
+    }
+    .slicknav_menutxt {
+        display: none !important;
+    }
+    .slicknav_icon {
+        font-size: 22px;
+        font-weight: bold;
+    }
+    .slicknav_nav a {
+        padding: 5px 10px;
+        margin: 2px 5px;
+        text-decoration: none;
+        color: #fff;
+        font-size: 15px;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    .slicknav_nav a:hover,
+    .slicknav_nav .slicknav_row:hover{
+        background: #CE1B28;
+        color: #fff;
+    }
+    .slicknav_menu .slicknav_icon{
+        margin: 0;
+    }
+    
+    .logo {
+        text-align: center;
+        display: block;
+        float: none;
+        margin-top: 70px;
+    }
+    
+    .video-contetn h2 {
+        font-size: 26px;
+    }
+    .video-contetn h4 {
+        font-size: 18px;
+    }
+    .video{
+        height: 230px;
+    }
+    .video-icon a {
+        color: #fff;
+        padding: 71px 130px;
+        display: block;
+    }
+    .video-icon i.fa {
+        height: 50px;
+        width: 50px;
+        line-height: 46px;
+    }
+    .video-icon {
+        font-size: 25px;
+    }
+    .video-area {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    footer {
+        padding-top: 60px;
+    }
+    
+    /*Product page css*/
+    .video-contetn h2 {
+        font-size: 30px;
+    }
+    .video-contetn {
+        padding-bottom: 50px;
+    }
+    .about-img {
+        height: 220px;
+        margin: 30px 0;
+    }
+    .check-out h2 {
+        font-size: 23px;
+        margin-bottom: 20px;
+    }
+    .section-padding {
+        padding: 30px 0;
+    }
+    .product-menu select{
+        margin-bottom: 20px;
+        background: #ddd;
+        padding: 15px 0px;
+        min-width: 200px;
+        display: block;
+        width: 100%;
+    }
+    .product-btn {
+        font-size: 14px;
+        padding: 10px 10px;
+    }
+    .product-image{
+        height: 250px;
+    }
+    .single-product h3{
+        font-size: 20px;
+    }
+    
+    /*freebies page css*/
+    .form {
+        padding: 60px 0px;
+    }
+/*    Build for you page css*/
+    .check-out{
+        padding: 20px;
+    }
+    .check-out h1,.form h2{
+        font-size: 30px;
+    }
+    
+    
+/*    single product page css*/
+    .single-buttons {
+        left: 36%;
+    }
+    .portfolio-menu {
+        text-align: left;
+    }
+    .portfolio-menu button {
+        padding: 8px 15px;
+    }
+    .single-item-info{
+        margin-bottom: 20px;
+
+    }
+    .single-item-info p {
+        display: block;
+        margin: 10px 0px;
+    }
+    p.info-padding {
+        width: 50%;
+        float: left;
+    }
+    .single-detail-info ul li a {
+        padding: 15px 2px;
+        font-size: 13px;
+        margin: 10px 0;
+        line-height: 20px;
+        text-align: center;
+    }
+    .more-item-heading{
+        text-align: center;
+    }
+    .more-item-btn{
+        float: none;
+    }
+    .more-single-itme{
+        margin-bottom: 30px;
+    }
+    .blog-banner{
+        height: 150px;
+    }
+    .left-single-blog img {
+        height: 250px;
+    }
+    .left-single-blog ul li{
+        display: block;
+    }
+    a.blog-read-more-btn{
+        margin-top: 50px;
+    }
+    .right-search-box{
+        display: none;
+    }
+    
+}
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .logo, .main-menu {
+        text-align: center;
+        display: block;
+        float: none;
+    }
+    .main-menu ul{
+        margin: 0;
+        padding: 0;
+    }
+    
+    .video-contetn h2 {
+        font-size: 26px;
+    }
+    .video-contetn h4 {
+        font-size: 18px;
+    }
+    .video{
+        height: 230px;
+    }
+    .video-icon a {
+        color: #fff;
+        padding: 83px 226px;
+        display: block;
+    }
+    .video-icon i.fa {
+        height: 50px;
+        width: 50px;
+        line-height: 46px;
+    }
+    .video-icon {
+        font-size: 25px;
+    }
+    .video-area {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    footer {
+        padding-top: 60px;
+    }
+    
+    /*Product page css*/
+    .video-contetn h2 {
+        font-size: 30px;
+    }
+    .video-contetn {
+        padding-bottom: 50px;
+    }
+    .about-img {
+        height: 340px;
+        margin: 30px 0;
+    }
+    .check-out h2 {
+        font-size: 23px;
+        margin-bottom: 20px;
+    }
+    .section-padding {
+        padding: 30px 0;
+    }
+    .product-menu select {
+        margin-bottom: 20px;
+        padding: 10px 0px;
+        min-width: 200px;
+    }
+    .product-btn {
+        font-size: 14px;
+        padding: 10px 10px;
+    }
+    .product-image{
+        height: 350px;
+    }
+    .single-product h3{
+        font-size: 20px;
+    }
+    
+    /*    Build for you page css*/
+    .check-out{
+        padding: 30px 15px;
+    }
+    .check-out h1,.form h2{
+        font-size: 30px;
+    }
+    .padding-0 {
+        padding: 20px 40px;
+    }
+    .portfolio-menu {
+        text-align: left;
+    }
+    .portfolio-menu button {
+        padding: 8px 15px;
+    }
+
+
+}
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .video-contetn h2{
+        font-size: 22px;
+    }
+    .video-contetn h4{
+        font-size: 17px;
+    }
+    .video{
+        height: 220px;
+    }
+    .video-icon a {
+        padding: 70px 129px;
+        display: block;
+    }
+    .video-icon i.fa {
+        height: 60px;
+        width: 60px;
+        line-height: 57px;
+        font-size: 30px;
+    }
+    
+/*    Product page css*/
+    .about-img {
+        height: 300px;
+    }
+    .check-out a {
+    padding: 16px 10px;
+    font-size: 13px;
+}
+    .product-btn {
+        padding: 10px;
+        font-size: 15px;
+    }
+    
+/*freebies page css*/
+    .form {
+        padding: 60px 0px;
+    }
+    .form h2 {
+        font-size: 30px;
+    }
+    .submit-form p {
+        font-size: 9px;
+    }
+    
+/*    Single product page css*/
+    .single-price h5 {
+        text-align: center;
+        margin: 0 auto;
+        display: block;
+        margin-bottom: 20px;
+    }
+    .single-social-icons p {
+        margin-right: 10px;
+    }
+    .single-buttons {
+        left: 40%;
+    }
+    .single-item-info p {
+        width: 100%;
+        display: block;
+    }
+    p.info-padding {
+        display: inline-block;
+        width: 50%;
+        float: left;
+        margin: 0;
+    }
+    .single-item-info {
+        margin-bottom: 30px;
+    }
+    .single-detail-info ul li {
+        min-height: 110px;
+        line-height: 12px;
+        text-align: center;
+        line-height: 16px;
+    }
+    .more-product-btn {
+        font-size: 15px;
+        padding: 7px 10px;
+    }
+    .more-item-img{
+        height: 180px;
+    }
+    .more-item-rating ul,
+    .more-item-rating h4{
+        display: block;
+        text-align: center;
+        float: none;
+    }
+    .more-iteml-content {
+        padding: 5px;
+    }
+    .more-content-logo {
+        text-align: center;
+        display: block;
+        float: none;
+    }
+    
+    /*blog page css*/
+    .left-single-blog img{
+        height: 270px;
+    }
+    .left-single-blog h3{
+        font-size: 22px;
+    }
+    
+    a.blog-read-more-btn{
+        margin-top: 15px;
+    }
+    .right-search-box{
+        padding: 20px 15px;
+    }
+    .right-search-box ul li a i.fa {
+        font-size: 35px;
+    }
+    .right-search-box input[type="text"]{
+        height: 35px;
+    }
+    .blog-recent-post {
+        padding: 30px 5px;
+    }
+    .recent-right a,
+    .recent-right p{
+        font-size: 12px;
+    }
+    .recent-left a img{
+        height: 50px;
+    }
+
+}
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .video-contetn h2{
+        font-size: 30px;
+    }
+    .video{
+        height: 300px;
+    }
+    .video-icon a {
+        padding: 100px 170px;
+        display: block;
+    }
+    .product-btn{
+        padding: 10px 15px;
+    }
+    /*freebies page css*/
+    .form {
+        padding: 30px;
+    }
+
+}
+
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+    .product-image{
+        height: 380px;
+    }
+}
